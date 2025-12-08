@@ -1,6 +1,6 @@
-function mnozenje (a, b, c) {
+function multiply (a, b, c) {
     return a * b - c
 };
 
-const rezultat = mnozenje (5, 6, 7);
-console.log(rezultat);
+const sum = multiply (5, 6, 7);
+console.log(sum);

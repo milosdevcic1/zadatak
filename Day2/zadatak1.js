@@ -1,3 +1,3 @@
-function doubleNumber (broj) {
-    return broj * 2
+function doubleNumber (number) {
+    return number * 2
 };

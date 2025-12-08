@@ -1,6 +1,6 @@
-function oduzimanje (a, b) {
+function minusing (a, b) {
     return a - b
 };
 
-let rezultat = oduzimanje(30, 20);
-console.log(rezultat);
+let sum = minusing (30, 20);
+console.log(sum);
