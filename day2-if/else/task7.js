@@ -1,11 +1,11 @@
 function evenOrOdd (n) {
     if (n % 2 === 0) {
-        console.log('Number is even')
+        return 'Number is even'
     }
     else {
-        console.log('Number is odd')
+        return 'Number is odd'
     }
 }
 
-evenOrOdd(5);
-evenOrOdd(6);
+console.log(evenOrOdd(5))
+console.log(evenOrOdd(6))
