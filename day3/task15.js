@@ -1,13 +1,9 @@
-var range = [];
-
 function numberRange (a, b) {
+    var range = []
     for (let n = a; n <= b; n++){
         range.push(n)
     }
-
-for (let number of range) {
-    console.log(number)
-}
+    return range.join('\n')
 }
 
-numberRange(2,22)
+console.log(numberRange(2,22))

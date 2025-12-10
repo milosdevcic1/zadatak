@@ -1,3 +1,14 @@
+function datum (meseci) {
+
+let tacanDan = []
+for (let obj of meseci) {
+    for (let dan = 1; dan <= obj.brojDana; dan++) {
+        tacanDan.push (`${dan}. ${obj.mesec}`);
+    }
+}
+  return tacanDan.join('\n')
+}
+
 let meseci = [
     {mesec: 'januar', brojDana: 31},
     {mesec: 'februar', brojDana: 28},
@@ -13,8 +24,4 @@ let meseci = [
     {mesec: 'decembar', brojDana: 31}
 ]
 
-for (let obj of meseci) {
-    for (let dan = 1; dan <= obj.brojDana; dan++) {
-        console.log(`${dan}. ${obj.mesec}`);
-    }
-}
+console.log(datum(meseci))

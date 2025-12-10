@@ -1,3 +1,5 @@
+function nizovi (broj) {
+
 var neparniNiz = [];
 var parniNiz = [];
 
@@ -9,8 +11,10 @@ for (let n = 1; n <= 100; n++) {
         parniNiz.push(n)
     }
 }
+  let konacanNiz = neparniNiz + parniNiz
+  return konacanNiz
 
-for (let neparni of neparniNiz)
-    console.log(neparni)
-for (let parni of parniNiz)
-    console.log(parni)
+}
+
+var broj = 100 
+console.log(nizovi(broj))

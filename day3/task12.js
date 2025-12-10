@@ -1,3 +1,11 @@
+function capitalCities (capitals) {
+    let countryAndCity = [];
+    for (let capital of capitals) {
+        countryAndCity.push(`The capital of ${capital.country} is ${capital.city}`)
+    }
+    return countryAndCity.join('\n')
+}
+
 var capitals = [
 { country: 'Italy', city: 'Rome' },
 { country: 'Netherlands', city: 'Amsterdam' },
@@ -6,6 +14,5 @@ var capitals = [
 { country: 'Finland', city: 'Helsinki' },
 ];
 
-for (let capital of capitals) {
-    console.log(`The capital of ${capital.country} is ${capital.city}`)
-}
+console.log(capitalCities(capitals))
+
