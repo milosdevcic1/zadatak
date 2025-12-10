@@ -1,7 +1,6 @@
-function inputWords () {
-
-    return `The memory of that scene for me is like a frame of film forever frozen at that moment: the ${colors[2]} carpet, the ${colors[1]} lawn, the ${colors[0]} house, the leaden sky. The new president and his first lady. - Richard M. Nixon`
+function inputWords() {
+  return `The memory of that scene for me is like a frame of film forever frozen at that moment: the ${colors[2]} carpet, the ${colors[1]} lawn, the ${colors[0]} house, the leaden sky. The new president and his first lady. - Richard M. Nixon`;
 }
 
-var colors = ['white', 'green', 'red', 'blue', 'black'];
-console.log(inputWords(colors))
+var colors = ["white", "green", "red", "blue", "black"];
+console.log(inputWords(colors));

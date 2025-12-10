@@ -1,20 +1,17 @@
-function nizovi (broj) {
+function nizovi(broj) {
+  var neparniNiz = [];
+  var parniNiz = [];
 
-var neparniNiz = [];
-var parniNiz = [];
-
-for (let n = 1; n <= 100; n++) {
+  for (let n = 1; n <= 100; n++) {
     if (n % 2 === 0) {
-        neparniNiz.push(n)
+      neparniNiz.push(n);
+    } else {
+      parniNiz.push(n);
     }
-    else {
-        parniNiz.push(n)
-    }
-}
-  let konacanNiz = neparniNiz + parniNiz
-  return konacanNiz
-
+  }
+  let konacanNiz = neparniNiz + parniNiz;
+  return konacanNiz;
 }
 
-var broj = 100 
-console.log(nizovi(broj))
+var broj = 100;
+console.log(nizovi(broj));
